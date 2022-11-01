@@ -12,4 +12,9 @@ public class HelloController {
         return "hello world";
     }
 
+    @RequestMapping("/cicd")
+    public String cicd(){
+        return "hello cicd";
+    }
+
 }
