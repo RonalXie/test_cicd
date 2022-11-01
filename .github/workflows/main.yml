@@ -38,7 +38,7 @@ jobs:
         uses: garygrossgarten/github-action-scp@release
         with:
           local: target/test_cicd-0.0.1-SNAPSHOT.jar
-          remote: 120.48.18.117/opt/test_cicd.jar
+          remote: opt/test_cicd.jar
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
