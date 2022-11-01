@@ -22,4 +22,9 @@ public class HelloController {
         return "hello cicsuccessd";
     }
 
+    @RequestMapping("/info")
+    public String info(){
+        return "hello ci/cd info ";
+    }
+
 }
