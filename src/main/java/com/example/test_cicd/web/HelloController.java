@@ -17,4 +17,9 @@ public class HelloController {
         return "hello cicd";
     }
 
+    @RequestMapping("/success")
+    public String success(){
+        return "hello cicsuccessd";
+    }
+
 }
