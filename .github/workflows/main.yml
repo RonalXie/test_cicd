@@ -47,7 +47,7 @@ jobs:
         uses: fifsky/ssh-action@master
         with:
           command: | # 命令中的 & 表示在后台运行进程
-            cd 120.48.18.117/opt/ && java -jar test_cicd.jar &
+            cd /opt/ && java -jar test_cicd.jar &
           host: ${{ secrets.HOST }}
           user: ${{ secrets.SSH_USER }}
           pass: ${{ secrets.SSH_PASSWORD }}
