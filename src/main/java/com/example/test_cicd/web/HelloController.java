@@ -27,4 +27,9 @@ public class HelloController {
         return "hello ci/cd info ";
     }
 
+    @RequestMapping("/log")
+    public String log(){
+        return "hello ci/cd log ";
+    }
+
 }
